@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Brewery</title>
+  <!-- Swiper CSS for animated slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="coffeee brewary.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <span class="logo-text">☕ Coffee Brewery</span>
+      <ul class="nav-menu" id="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <!-- Animated Hero Section with Swiper -->
+  <section class="hero-section">
+    <div class="swiper heroSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <figure>
+          <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHx8MA%3D%3D" alt="Coffee Shop Slide 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg" alt="Coffee Shop Slide 2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg" alt="Coffee Shop Slide 3" />
+           </figure>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Coffee Brewery</h1>
+      <p>Welcome to the world's number one tech-inspired coffee restaurant.<br>
+        Enjoy comfort-style meals and creative brews in a modern, animated atmosphere.
+      </p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section class="menu-section" id="menu">
+    <div class="menu-title">Our Signature Menu</div>
+    <div class="menu-tagline">Delicious, comfort-style meals with a creative twist</div>
+    <div class="menu-cards">
+      <!-- Card 1 -->
+      <div class="menu-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-v-yguhGWLf5pkTXUv4FD3NR0tsMH67Qrmg&s" alt="Sandlers Delight">
+        <div class="menu-card-title">Sandlers’s Delight</div>
+        <div class="menu-card-desc">
+          A hearty grilled chicken sandwich stacked with caramelized onions, melted cheese, and our signature spicy aioli.
+        </div>
+        <a href="#" class="btn">More Info</a>
+      </div>
+      <!-- Card 2 -->
+      <div class="menu-card">
+        <img src="https://newmansown.com/wp-content/uploads/2022/03/Homemade-lasagna-1200x675.png" alt="Loop Lasagna">
+        <div class="menu-card-title">Loop Lasagna</div>
+        <div class="menu-card-desc">
+          Classic Italian lasagna layered with rich meat sauce, creamy béchamel, and oven-baked cheese.
+        </div>
+        <a href="#" class="btn">More Info</a>
+      </div>
+      <!-- Card 3 -->
+      <div class="menu-card">
+        <img src="https://www.foodandwine.com/thmb/Nb8yXfOQO09i5Cxzhgi68z0YejY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ice-cream-sundae-with-homemade-caramel-FT-RECIPE0721-a3f7998964104a8094eccfd3b827cc56.jpg" alt="Stack Overflow Sundae">
+        <div class="menu-card-title">Stack Overflow Sundae</div>
+        <div class="menu-card-desc">
+          A towering dessert of brownie chunks, vanilla ice cream, chocolate drizzle, and whipped cream.
+        </div>
+        <a href="#" class="btn">More Info</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Coffee Brewery. All rights reserved.
+  </footer>
+
+  <!-- Swiper JS for animated slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Font Awesome for hamburger icon -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+  <script src="coffee brewary.js".js"></script>
+</body>
+</html>
